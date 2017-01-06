@@ -4,7 +4,7 @@
 ### celery
     task(django or others ) -> broker(redis) -> worker(celery) -> backend(redis)
 
-### ENV
+### env
     python==2.7.13
     Django==1.8
     celery==3.1.18
