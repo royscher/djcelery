@@ -6,7 +6,7 @@ from celery import Celery
 from django.conf import settings
 from datetime import timedelta
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'celery_dj2.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djcelery.settings')
 app = Celery('core')
 app.config_from_object('django.conf:settings')
 app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)

@@ -42,7 +42,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'celery_dj2.urls'
+ROOT_URLCONF = 'djcelery.urls'
 
 TEMPLATES = [
     {
@@ -60,7 +60,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'celery_dj2.wsgi.application'
+WSGI_APPLICATION = 'djcelery.wsgi.application'
 
 
 # Database
