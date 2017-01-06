@@ -2,3 +2,4 @@
 .idea/*
 *.rdb
 *.DS_Store
+*.log
